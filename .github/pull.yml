@@ -1,0 +1,7 @@
+version: '1'
+rules:
+  - base: main
+    upstream: CorentinTh:main
+    # 如果该文件不存在，默认值为 'hardreset'，会覆盖任何下游更改！
+    mergeMethod: merge
+    mergeUnstable: true # 防止非通过测试阻止自动合并。
