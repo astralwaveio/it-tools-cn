@@ -1,4 +1,5 @@
 home:
+  title: 'IT - 工具箱'
   categories:
     newestTools: '最新工具'
     favoriteTools: '我的收藏'
